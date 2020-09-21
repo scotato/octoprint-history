@@ -4,8 +4,16 @@
   "description": "octoprint api tests",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Scott <wsdodge@gmail.com>",
-  "license": "ISC"
+  "author": "Scott <scott@goldilocks.design>",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv-defaults": "2.0.1",
+    "nodemon": "2.0.4"
+  },
+  "dependencies": {
+    "node-fetch": "2.6.1"
+  }
 }
